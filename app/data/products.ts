@@ -48,7 +48,7 @@ export const products: Product[] = [
     unitWeight: 250,
     unit: 'g',
     emoji: '🟡',
-    image: '/turmeric.png',
+    image: '/turmeric2.png',
     bgColor: 'from-[#F4B942] to-[#C68B12]',
     badge: 'NEW!',
     features: [
