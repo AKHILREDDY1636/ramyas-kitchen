@@ -22,7 +22,7 @@ export const products: Product[] = [
     id: 'chilli-powder',
     name: 'Homemade Chilli Powder',
     subtitle: 'Traditional Andhra-style, stone-pounded',
-    pricePerUnit: 120,
+    pricePerUnit: 150,
     unitWeight: 250,
     unit: 'g',
     emoji: '🌶️',
