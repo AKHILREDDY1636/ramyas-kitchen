@@ -25,9 +25,9 @@ export default function Home() {
             <div className="text-center text-[#B82E1F] text-sm font-bold tracking-widest uppercase mb-5">
               Founder & Chief Cook
             </div>
-            <blockquote className="italic text-center text-[#5C3D2E]" style={{ fontFamily: 'Fraunces, serif' }}>
-              &ldquo;I make every batch the way my mother taught me — slow, careful, with love.&rdquo;
-            </blockquote>
+           <blockquote className="italic text-center text-[#5C3D2E]" style={{ fontFamily: 'Fraunces, serif' }}>
+              &ldquo;I make every batch the way my grandmother taught me — slow, careful, with love.&rdquo;
+          </blockquote>
           </div>
           
           <div>
@@ -39,27 +39,32 @@ export default function Home() {
               to <em className="text-[#E8A82C] font-medium">yours</em>.
             </h2>
             <p className="text-[#F5EFE0]/80 mb-4">
-              For 30 years, Ramya has been making chilli powder for her family. 
-              Friends asked for it. Then their friends.
-            </p>
-            <p className="text-[#F5EFE0]/80">
-              Every pack is made in small batches, from chillies dried under the sun on her terrace, 
-              and ground using the same stone her grandmother used.
-            </p>
+    Four years ago, Ramya started making chilli powder from her kitchen in Hyderabad — 
+    using the recipe her mother taught her. Family loved it. Friends started asking. 
+    Slowly, the orders began coming in.
+</p>
+          <p className="text-[#F5EFE0]/80">
+              Every pack is still made in small batches — sun-dried chillies from her terrace, 
+              pounded slowly by hand. No shortcuts, no preservatives. Just real spice, 
+              made the way it always should be.
+          </p>
           </div>
         </div>
       </section>
       
       {/* Products Section */}
       <section id="products" className="py-24 px-6">
-        <div className="text-center mb-16">
-          <div className="text-[#B82E1F] text-sm font-bold tracking-widest uppercase mb-3">
-            — Our Products
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#3A2418]" style={{ fontFamily: 'Fraunces, serif' }}>
-            Order your <em className="text-[#B82E1F] font-medium">jar</em> today
-          </h2>
-        </div>
+       <div className="text-center mb-16">
+    <div className="text-[#B82E1F] text-sm font-bold tracking-widest uppercase mb-3">
+      — Our Products
+    </div>
+    <h2 className="text-4xl md:text-5xl font-bold text-[#3A2418]" style={{ fontFamily: 'Fraunces, serif' }}>
+      Order your <em className="text-[#B82E1F] font-medium">pack</em> today
+    </h2>
+    <p className="text-[#5C3D2E] mt-4 text-base">
+      🌿 Sealed in food-safe aluminum packets to lock in freshness
+    </p>
+</div>
         
         <div className="space-y-8">
           {availableProducts.map(product => (
@@ -85,6 +90,7 @@ export default function Home() {
             { icon: '☀️', title: 'Sun-Dried', desc: 'Naturally dried under the sun for 7 days.' },
             { icon: '⚒️', title: 'Stone-Pounded', desc: 'Hand-pounded to preserve oils and aroma.' },
             { icon: '📅', title: 'Fresh Weekly', desc: 'Small batches every week. Never sits on a shelf.' },
+            { icon: '🌿', title: 'Sealed Fresh', desc: 'Food-safe aluminum packets lock in freshness.' },
           ].map((card, i) => (
             <div key={i} className="bg-[#F5EFE0] p-7 rounded-2xl border border-[#B82E1F]/8 hover:-translate-y-1 hover:shadow-xl transition">
               <div className="w-14 h-14 bg-gradient-to-br from-[#B82E1F] to-[#E8A82C] rounded-2xl flex items-center justify-center text-2xl mb-5 shadow-lg">

@@ -32,6 +32,7 @@ export const products: Product[] = [
       'Stone-pounded, never machine-ground',
       'Zero preservatives or additives',
       'Made fresh every week',
+      'Sealed in food-safe aluminum packets',
     ],
     available: true,
   },
@@ -59,9 +60,10 @@ export const products: Product[] = [
 
 // ============ BUSINESS CONFIG ============
 export const BUSINESS_CONFIG = {
-  whatsappNumber: '919676079027', // ← Change to mom's WhatsApp number
-  phoneNumber: '+919676079027',
+  whatsappNumber: '919999999999', // ← Change to mom's WhatsApp number
+  phoneNumber: '+919999999999',
   ownerName: 'Ramya',
   businessName: "Ramya's Kitchen",
-  location: 'Local delivery only',
+  location: 'Hyderabad',
+  deliveryArea: 'Within Hyderabad',
 };

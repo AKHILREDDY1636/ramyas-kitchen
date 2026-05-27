@@ -8,10 +8,10 @@ export default function Hero() {
         </div>
         
         <h1 className="font-black text-5xl md:text-7xl leading-none text-[#3A2418] mb-6" style={{ fontFamily: 'Fraunces, serif' }}>
-          Real chilli powder,<br />
-          <span className="italic font-medium text-[#B82E1F]">stone-pounded</span><br />
-          by Amma&apos;s hands.
-        </h1>
+    Real chilli powder,<br />
+    <span className="italic font-medium text-[#B82E1F]">stone-pounded</span><br />
+    in Ramya&apos;s kitchen.
+</h1>
         
         <p className="text-lg text-[#5C3D2E] mb-8 max-w-lg">
           No machines. No preservatives. Just sun-dried red chillies pounded the traditional way 
@@ -29,7 +29,7 @@ export default function Hero() {
             href="#about"
             className="border-2 border-[#3A2418] text-[#3A2418] px-8 py-4 rounded-full font-semibold hover:bg-[#3A2418] hover:text-[#F5EFE0] transition"
           >
-            Meet Amma
+            Meet Ramya
           </a>
         </div>
         
@@ -38,6 +38,10 @@ export default function Hero() {
             <div className="font-bold text-3xl text-[#B82E1F]" style={{ fontFamily: 'Fraunces, serif' }}>100%</div>
             <div className="text-sm text-[#5C3D2E]">Homemade</div>
           </div>
+          <div>
+        <div className="font-bold text-3xl text-[#B82E1F]" style={{ fontFamily: 'Fraunces, serif' }}>4+</div>
+        <div className="text-sm text-[#5C3D2E]">Years of Care</div>
+    </div>
           <div>
             <div className="font-bold text-3xl text-[#B82E1F]" style={{ fontFamily: 'Fraunces, serif' }}>0</div>
             <div className="text-sm text-[#5C3D2E]">Preservatives</div>
