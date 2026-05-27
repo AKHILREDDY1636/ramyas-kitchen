@@ -60,8 +60,8 @@ export const products: Product[] = [
 
 // ============ BUSINESS CONFIG ============
 export const BUSINESS_CONFIG = {
-  whatsappNumber: '919999999999', // ← Change to mom's WhatsApp number
-  phoneNumber: '+919999999999',
+  whatsappNumber: '919676079027', // ← Change to mom's WhatsApp number
+  phoneNumber: '+919676079027',
   ownerName: 'Ramya',
   businessName: "Ramya's Kitchen",
   location: 'Hyderabad',
