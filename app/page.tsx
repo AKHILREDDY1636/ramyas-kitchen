@@ -39,12 +39,12 @@ export default function Home() {
               to <em className="text-[#E8A82C] font-medium">yours</em>.
             </h2>
             <p className="text-[#F5EFE0]/80 mb-4">
-    Four years ago, Ramya started making chilli powder from her kitchen in Hyderabad — 
+    Four years ago, Ramya started making chilli powder from her kitchen — 
     using the recipe her mother taught her. Family loved it. Friends started asking. 
     Slowly, the orders began coming in.
 </p>
           <p className="text-[#F5EFE0]/80">
-              Every pack is still made in small batches — sun-dried chillies from her terrace, 
+              Every pack is made in small batches — sun-dried chillies from her terrace, 
               pounded slowly by hand. No shortcuts, no preservatives. Just real spice, 
               made the way it always should be.
           </p>
