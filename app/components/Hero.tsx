@@ -7,16 +7,16 @@ export default function Hero() {
           Fresh Batch Available
         </div>
         
-        <h1 className="font-black text-5xl md:text-7xl leading-none text-[#3A2418] mb-6" style={{ fontFamily: 'Fraunces, serif' }}>
-    Real chilli powder,<br />
-    <span className="italic font-medium text-[#B82E1F]">stone-pounded</span><br />
-    in Ramya&apos;s kitchen.
-</h1>
+       <h1 className="font-black text-5xl md:text-7xl leading-none text-[#3A2418] mb-6" style={{ fontFamily: 'Fraunces, serif' }}>
+          Real spices,<br />
+          <span className="italic font-medium text-[#B82E1F]">stone-pounded</span><br />
+          in Ramya&apos;s kitchen.
+      </h1>
         
-        <p className="text-lg text-[#5C3D2E] mb-8 max-w-lg">
-          No machines. No preservatives. Just sun-dried red chillies pounded the traditional way 
+       <p className="text-lg text-[#5C3D2E] mb-8 max-w-lg">
+          No machines. No preservatives. Just sun-dried spices pounded the traditional way 
           in our home kitchen.
-        </p>
+      </p>
         
         <div className="flex gap-4 flex-wrap">
           <a 
