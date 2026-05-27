@@ -51,11 +51,21 @@ export default function ProductCard({ product }: Props) {
     <div className="max-w-4xl mx-auto bg-[#F5EFE0] rounded-3xl overflow-hidden grid md:grid-cols-2 shadow-2xl shadow-[#3A2418]/10 border border-[#B82E1F]/10">
       
       {/* Product Image */}
-      <div className="bg-gradient-to-br from-[#D63A26] to-[#8B1A0E] p-12 md:p-16 flex items-center justify-center relative">
-        <span className="absolute top-5 right-5 bg-[#E8A82C] text-[#3A2418] text-xs font-bold px-3 py-1.5 rounded-full tracking-wider">
-          {product.badge}
-        </span>
-        <span className="text-8xl md:text-9xl drop-shadow-2xl animate-wobble">{product.emoji}</span>
+      <div className={`bg-gradient-to-br ${product.bgColor || 'from-[#D63A26] to-[#8B1A0E]'} flex items-center justify-center relative min-h-[320px] p-8 overflow-hidden`}>
+          <span className="absolute top-5 right-5 bg-[#E8A82C] text-[#3A2418] text-xs font-bold px-3 py-1.5 rounded-full tracking-wider z-10">
+              {product.badge}
+          </span>
+          
+          {product.image ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img 
+              src={product.image} 
+              alt={product.name}
+              className="max-w-full max-h-[260px] object-contain drop-shadow-2xl animate-float"
+            />
+          ) : (
+            <span className="text-8xl md:text-9xl drop-shadow-2xl animate-wobble">{product.emoji}</span>
+          )}
       </div>
       
       {/* Product Info */}

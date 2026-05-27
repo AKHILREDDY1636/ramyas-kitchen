@@ -12,6 +12,8 @@ export interface Product {
   unitWeight: number;
   unit: string;
   emoji: string;
+  image?: string;
+  bgColor?: string;
   badge: string;
   features: string[];
   available: boolean;
@@ -26,6 +28,8 @@ export const products: Product[] = [
     unitWeight: 250,
     unit: 'g',
     emoji: '🌶️',
+    image: '/chilli.png',
+    bgColor: 'from-[#D63A26] to-[#8B1A0E]',
     badge: 'FRESH BATCH',
     features: [
       'Sun-dried Guntur chillies',
@@ -36,26 +40,26 @@ export const products: Product[] = [
     ],
     available: true,
   },
-  // ============ FUTURE PRODUCTS ============
-  // Uncomment and edit when ready:
-  //
-  // {
-  //   id: 'turmeric',
-  //   name: 'Pure Turmeric Powder',
-  //   subtitle: 'Hand-pounded, deep golden color',
-  //   pricePerUnit: 150,
-  //   unitWeight: 250,
-  //   unit: 'g',
-  //   emoji: '🟡',
-  //   badge: 'COMING SOON',
-  //   features: [
-  //     'Organic Salem turmeric',
-  //     'Sun-dried for 10 days',
-  //     'High curcumin content',
-  //     'No artificial color',
-  //   ],
-  //   available: false,
-  // },
+  {
+    id: 'turmeric-powder',
+    name: 'Homemade Turmeric Powder',
+    subtitle: 'Pure, hand-pounded, golden goodness',
+    pricePerUnit: 125,
+    unitWeight: 250,
+    unit: 'g',
+    emoji: '🟡',
+    image: '/turmeric.png',
+    bgColor: 'from-[#F4B942] to-[#C68B12]',
+    badge: 'NEW!',
+    features: [
+      'Pure Salem turmeric roots',
+      'Sun-dried, stone-pounded',
+      'High curcumin, deep golden color',
+      'No artificial color or additives',
+      'Sealed in food-safe aluminum packets',
+    ],
+    available: true,
+  },
 ];
 
 // ============ BUSINESS CONFIG ============

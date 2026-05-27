@@ -111,9 +111,9 @@ export default function Home() {
           {BUSINESS_CONFIG.businessName}
         </div>
         <p className="text-[#F5EFE0]/70 mb-6">Made with love in a home kitchen.</p>
-        <p className="italic text-[#E8A82C] mt-6" style={{ fontFamily: 'Fraunces, serif' }}>
-          Coming soon → Turmeric, Sambar Powder, Pickles ✨
-        </p>
+       <p className="italic text-[#E8A82C] mt-6" style={{ fontFamily: 'Fraunces, serif' }}>
+          Coming soon → Sambar Powder, Rasam Powder, Pickles ✨
+      </p>
         <div className="mt-10 pt-6 border-t border-[#F5EFE0]/10 text-sm text-[#F5EFE0]/50">
           Made with <span className="text-[#D63A26]">❤</span> by Ramya&apos;s family · © 2026
         </div>
